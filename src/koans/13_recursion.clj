@@ -56,6 +56,5 @@
   (< 1000000000000000000000000N (factorial 1000N))
 
   ;; This unfortunatly cannot be evaluate under reasonable time in my laptop
-  ;; "But what happens when the machine limits you?"
-  ;; (< 1000000000000000000000000N (factorial 100003N))
-  )
+  "But what happens when the machine limits you?"
+  (< 1000000000000000000000000N (factorial 100003N)))
